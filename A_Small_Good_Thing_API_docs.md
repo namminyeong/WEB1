@@ -3,8 +3,7 @@
 | Method | End Point                        | Request                                         | Response                                             | Usage     |
 | ------ | -------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | --------- |
 | GET    | /                                | null                                            | `status = 200, { "Success" }`                          |           |
-| POST   | /signup                          | `{username:'codestates',message:'hello world'}` | `status = 200, {"id": 3, "user_name": "test", "email": "test2@gmail.com", "password": "12345678"}
-sdklfjlskdfjklsdjfkls` | |
+| POST   | /signup                          | `{ body: {"user_name": "test", "email": "test@gmail.com", "password": "12345678"}` | `status = 200, {"id": 3, "user_name": "test", "email": "test2@gmail.com", "password": "12345678"}` | |
 |        |                                  |                                                 | `status = 409, { "Already exists user" }` |           |
 | POST   | /login                           | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
 | POST   | /logout                          | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
