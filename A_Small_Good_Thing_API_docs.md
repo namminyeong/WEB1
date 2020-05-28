@@ -1,6 +1,6 @@
 # A_Small_Good_Thing API docs
 
-| Method | End Point                        | Request                                         | Response                                             | Usage     |
+| Method | End Point                        | Request                                         | Response                                             | Usage                       |
 | ------ | -------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | --------- |
 | GET    | /                                | null                                            | `status = 200, { "Success" }`                          |           |
 | POST   | /signup                          | `{ body: { "user_name": "test", "email": "test@gmail.com", "password": "12345678" }` | `status = 200, { "id": 3, "user_name": "test", "email": "test2@gmail.com", "password": "12345678" }` | 회원가입 성공|
