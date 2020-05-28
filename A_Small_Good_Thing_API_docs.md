@@ -2,7 +2,7 @@
 
 | Method | End Point                        | Request                                         | Response                                             | Usage     |
 | ------ | -------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | --------- |
-| GET    | /                                | null                                            | `status = 200, {"Success"}`                          |           |
+| GET    | /                                | null                                            | status = 200, {"Success"}                         |           |
 | POST   | /signup                          | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
 | POST   | /login                           | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
 | POST   | /logout                          | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
