@@ -9,7 +9,8 @@
 |        |                                  |                                                 | `status = 403, { "check your email" }`  |실패 |
 |        |                                  |                                                 | `status = 401, { "check your password" }` |실패 |
 |        |                                  | `{ body: {}`                                    | `{id:1,username:'codestates',message:'hello world'}` |자동로그인|
-| POST   | /logout                          | `{ body: { "user_id": 1 }`  | `status = 200, { "post logout success" }`   |로그아웃 성공|
+| POST   | /logout                          | `{ body: { "user_id": 1 }`  | `status = 200, { "post logout success" }`   |성공|
+| ------ | -------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | --------- |
 | GET    | /monthly-list?user_id=${user_id} | null                                            | `status = 200, {"Success"}`                          |           |
 | GET    | /total_list?user_id=${user_id}   | null                                            | `status = 200, {"Success"}`                          |           |
 | POST   | /item                            | `{username:'codestates',message:'hello world'}` | `{id:1,username:'codestates',message:'hello world'}` |           |
